@@ -35,20 +35,20 @@ int main() {
 */
 class Circle {
  public:
-  /** 
-  * @brief Sets the radius
-  * @param radius of circle (in metres)
-  * @details Mutator method for setting the radius of the circle object
-  */
+  /**
+   * @brief Sets the radius
+   * @param radius @details Radius of the circle in metres
+   */
   void set_radius(float radius);
-  /** 
-  * @brief Gets the area
-  * @returns the area of the circle (in metres squared)
-  */
+  /**
+   * @brief Gets the circle area
+   * @returns the area of the circle in metres squared
+   */
   float get_area();
+
  private:
   float _radius;
   float _area;
 };
 
-#endif
+#endif 
